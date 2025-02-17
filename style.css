@@ -1,0 +1,74 @@
+/* Général */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #333;
+    line-height: 1.6;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+}
+
+p {
+    text-align: center;
+}
+
+h1, h2 {
+    font-family: 'Playfair Display', serif;
+    color: #383838;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    color: #8f8f8f;
+    transition: color 0.3s;
+}
+
+/* Header */
+header {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+    background-color: #383838;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+}
+
+/* Main */
+main {
+    padding: 20px 10%;
+}
+
+/* Listes horizontales */
+.liste-hex {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.liste-hex li {
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    background-color: #383838;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
